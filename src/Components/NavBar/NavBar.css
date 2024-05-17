@@ -2,27 +2,28 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
     padding: 15px 0;
 
     .logo {
         img {
             padding-top: 10px;
-            width: 50px;
+            width: 80px;
         }
     }
 
     .links {
         display: flex;
-        gap: 80px;
+        gap: 50px;
 
         a {
             position: relative;
             color: rgba(87, 87, 87, 0.871);
-            font-size: 14px;
-            font-weight: 500;
+            font-size: 12px;
+            font-weight: 400;
             text-decoration: none;
+            letter-spacing: .5px;
             transition: .4s;
 
             &:hover {

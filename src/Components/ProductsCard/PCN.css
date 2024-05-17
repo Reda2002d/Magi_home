@@ -1,0 +1,9 @@
+.new {
+    position: absolute;
+    background-color: transparent;
+
+    img {
+        width: 250px !important; 
+        height: auto !important;
+    }
+}

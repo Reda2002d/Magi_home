@@ -19,3 +19,13 @@
 body {
   background-color: var(--background-color);
 }
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 6px;
+  background: linear-gradient(transparent, var(--main-color));
+
+}
